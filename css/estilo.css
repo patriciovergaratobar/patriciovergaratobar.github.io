@@ -1,0 +1,145 @@
+body {
+    background-color: #040300;
+}
+.contenedor {
+    height: 30rem;
+    width: 30rem;
+    background-color: #ffd53a;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.cabeza{
+    width: 15rem;
+    height: 13rem;
+    position: relative;
+    top: 6.5rem;
+    left: 7.5rem;
+    background-color: #2b2b2b;
+    border-radius: 7rem 7rem 0 0;
+
+}
+.pecho {
+    width: 15rem;
+    height: 10.5rem;
+    position: relative;
+    top: 6.5rem;
+    left: 7.5rem;
+    background-color: #1b1a1a;
+
+}
+
+.cabeza::before {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 100rem 10rem 0rem 0rem;
+}
+
+.cabeza::before {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 5rem 0rem 1rem 2rem;
+
+}
+
+.cabeza::after {
+    content: '';
+    width: 4rem;
+    height: 10rem;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: -2rem;
+    border-radius: 0rem 30rem 0rem 0rem;
+}
+
+.cabeza::after {
+    left: 11rem;
+}
+
+.cara {
+    width: 12rem;
+    height: 5rem;
+    background-color: #f9ca90;
+    border-radius: 20%;
+    position: relative;
+    top: 7rem;
+    left: 1.5rem;
+    z-index: 1;
+}
+
+.detalles_cara, .detalles_cara::before {
+    width: 3rem;
+    height: 1rem;
+    background-color: #fdfdfde6;
+    border-radius: 0rem 0rem 3rem 3rem;
+    position: relative;
+    top: -3rem;
+    left: 1.6rem;
+}
+
+.detalles_cara::before{
+    content: '';
+    position: absolute;
+  top: 0;
+    left: 6rem;
+}
+.detalles_cara::after {
+    content: '';
+    width: 5rem;
+    height: 0.4rem;
+    border-style: solid;
+    background-color: #eaeaea;
+    border-color: #212121f5 #252525f2 #212121f5 #212121f5;
+    border-radius: 40%;
+    position: absolute;
+    top: 5.6rem;
+    left: 2rem;
+}
+
+.mangas, .mangas::before {
+    width: 4rem;
+    height: 14rem;
+    background-color: #252525;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: absolute;
+    left: -1.8rem;
+    z-index: 30;
+    border-bottom: 3rem;
+    border-top-left-radius: 23rem;
+    border-top-right-radius: 23rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 50rem;
+}
+
+.mangas::before{
+    content: '';
+    left: 15.3rem;
+}
+.brazos, .brazos::before {
+    width: 1.8rem;
+    height: 9.5rem;
+    background-color: #1c1a1a96;
+    position: absolute;
+    top: 2rem;
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 20rem;
+}
+.brazos::before{
+    content: '';
+    left: 16.5rem;
+    top: 0rem;
+}
+
+.logoBatman {
+    width: 6rem;
+    top: 1rem;
+    left: 5rem;
+    position: absolute;
+}
